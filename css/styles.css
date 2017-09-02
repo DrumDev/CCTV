@@ -45,6 +45,7 @@ p{font-size:16px;}
     left:0;
     text-align: center;
     overflow: hidden;
+    padding:0 15px;
 }
 
 #homeBannerContent h1{
@@ -68,9 +69,9 @@ p{font-size:16px;}
     text-shadow: 1px 2px black;
 }
 
-@media screen and (max-width:376px){
-    #homeBannerContent h1{padding-top:40px;font-size:70px;}
-    #homeBannerContent h3{font-size:36px;}
+@media screen and (max-width:767px){
+    #homeBannerContent h1{padding-top:40px;font-size:50px;}
+    #homeBannerContent h3{font-size:28px;}
 }
 
 /* About Styles */
@@ -225,3 +226,5 @@ body {margin-bottom:65px;}
         font-size:90%;
     }
 }
+
+
